@@ -1,0 +1,20 @@
+keytool -genkeypair -v -keystore tellascape.keystore -alias tellascape -keyalg RSA -keysize 2048 -validity 10000
+sudo keytool -genkey -v -keystore tellascape_prod.keystore -alias tellascape_prod -keyalg RSA -keysize 2048 -validity 10000
+
+For Windows
+keytool -list -v -keystore tellascape.keystore -alias tellascape -storepass Tellascape@123 -keypass Tellascape@123
+
+For Mac
+keytool -list -v -alias tellascape -keystore tellascape.keystore -storepass Tellascape@123 -keypass Tellascape@123
+keytool -list -v -alias androiddebugkey -keystore debug.keystore -storepass android -keypass android
+
+
+For production
+
+keytool -list -v -alias tellascape_prod -keystore tellascape_prod.keystore -storepass Tellascape@123 -keypass Tellascape@123
+
+keytool -list -v -alias upload -keystore keystore.keystore -storepass tellascapedit2000 -keypass tellascapedit2000
+
+
+please make sure you run npx jetify before doing ./gradlew assembleRelease to convert any android.support.v4.app.* package into androidx.core.app.*
+

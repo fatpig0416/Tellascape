@@ -1,0 +1,32 @@
+before_all do
+  ensure_git_branch
+  ensure_git_status_clean
+  git_pull
+end
+
+platform :ios do    
+  desc 'Fetch certificates and provisioning profiles'
+  lane :certificates do
+    match(app_identifier: 'com.ts.Tellascape', type: 'development', readonly: true)
+  end
+  desc 'Fetch certificates, build and upload to App Center.'
+    lane :beta do
+    build
+    appcenter_upload(
+        api_token: ENV["APPCENTER_API_TOKEN"],
+        owner_name: ENV["APPCENTER_OWNER_NAME"],
+        app_name: ENV["APPCENTER_APP_NAME"],
+        ipa: ENV["APPCENTER_DISTRIBUTE_IPA"]
+    )
+  end
+  desc 'Build the iOS application.'
+  lane :build do
+    certificates
+    increment_build_number(xcodeproj: './ios/tellascape.xcworkspace')
+    gym(scheme: 'tellascape', project: './ios/tellascape.xcworkspace')
+  end
+end
+
+platform :android do
+  # Android Lanes
+end

@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "30296404330",
+    "firebase_url": "https://tellascape-cf815.firebaseio.com",
+    "project_id": "tellascape-cf815",
+    "storage_bucket": "tellascape-cf815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30296404330:android:965e1377bee6e518fd7513",
+        "android_client_info": {
+          "package_name": "com.ts.Tellascape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30296404330-oa0lapncig539dr2ftv17gpbi8loj8lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ts.Tellascape",
+            "certificate_hash": "5ba20abe2e831e59ecc92e2c0d42ebee6fbef247"
+          }
+        },
+        {
+          "client_id": "30296404330-lajkmp3po2s0neno6r3boqfg2tk8ckbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ts.Tellascape",
+            "certificate_hash": "75e2d5c1071b49d45d4b881823a7a56eca5a0ecc"
+          }
+        },
+        {
+          "client_id": "30296404330-ljtgr2fspb0gl1stoslj3lunma06ombf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ts.Tellascape",
+            "certificate_hash": "a2bf7a1b80e55cdb5cbc6c3ac01cdce777a8d5bb"
+          }
+        },
+        {
+          "client_id": "30296404330-r5o9rftctibro9scm9rsvusl56iqrrom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ts.Tellascape",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "30296404330-qv5jni799ovjkgps8g5qube7o12hrrbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ts.Tellascape",
+            "certificate_hash": "e20743553308f05f05eed720353a37b2c53247e3"
+          }
+        },
+        {
+          "client_id": "30296404330-dltjkg1iebb3hlfgd7nbn7hun7dstgbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrjQ-bcEQcRPkr81tNq4Tt9s7DwcWtELg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30296404330-dltjkg1iebb3hlfgd7nbn7hun7dstgbf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30296404330-3d3ttj5rkuptgdfvhhj8acmdn04oan5d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ts.Tellascape",
+                "app_store_id": "1462461606"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

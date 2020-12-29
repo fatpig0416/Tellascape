@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>30296404330-3d3ttj5rkuptgdfvhhj8acmdn04oan5d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.30296404330-3d3ttj5rkuptgdfvhhj8acmdn04oan5d</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>30296404330-q4eg870dsccr1ibhodtd3s3f146h8eso.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCE3VRS-dgnebns7EnRDT4OAZSooLLh3y4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>30296404330</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ts.Tellascape</string>
+	<key>PROJECT_ID</key>
+	<string>tellascape-cf815</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tellascape-cf815.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:30296404330:ios:b29842d938826c85fd7513</string>
+	<key>DATABASE_URL</key>
+	<string>https://tellascape-cf815.firebaseio.com</string>
+</dict>
+</plist>
